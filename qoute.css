@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500&family=Nunito+Sans:opsz@6..12&family=Open+Sans:ital,wght@1,500&family=Poppins:wght@300&family=Raleway:wght@500&family=Roboto&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(Assets/library.jpg);
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+}
+
+
+.heading {
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    letter-spacing: 1.5px;
+    border: 2px solid black;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.qoute {
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.person {
+    margin: 15px 0;
+    font-size: 19px;
+    color: orangered;
+    text-transform: uppercase;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: -4px 0;
+    background-color: gray;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: lightgreen;
+}
