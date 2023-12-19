@@ -81,11 +81,6 @@ Button.addEventListener('click', e =>{
 
     Qoute.textContent = qoutes[randomNumber].qoute;
     Person.textContent = qoutes[randomNumber].person;  
-/* 
-    const colors = ['blue', 'indigo', 'orange', 'lightgreen', 'magenta', 'cyan', 'yellow'];
-    const randomColor = colors[randomNumber];
 
-    container.style.backgroundColor = randomColor; */
-    
 })
 
