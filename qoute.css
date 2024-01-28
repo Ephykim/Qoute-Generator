@@ -6,14 +6,22 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary-dark:#262626;
+    --primary-green:#5bca3fc5;
+}
+
 body {
     width: 100vw;
     height: 100vh;
-    background: url(Assets/library.jpg);
+    background: url(library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Roboto, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 .container {
@@ -27,11 +35,12 @@ body {
     margin-bottom: 15px;
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     border-radius: 5px;
-    background-color: gray;
+    background-color: var(--primary-dark);
     letter-spacing: 1.5px;
-    border: 2px solid black;
+    
 }
 
 .main-content {
@@ -67,7 +76,7 @@ body {
     border-radius: 6px;
     padding: 10px 15px;
     margin: -4px 0;
-    background-color: gray;
+    background-color: var(--primary-dark);
     letter-spacing: 1px;
     color: whitesmoke;
     font-size: 15px;
@@ -75,5 +84,5 @@ body {
 }
 
 .btn:active {
-    background-color: lightgreen;
+    background-color:var(--primary-green)
 }
