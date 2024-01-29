@@ -73,10 +73,30 @@ const qoutes = [
     },{
         qoute:'"Don\'t wait around for other people to be happy for you. Any happiness you get, you\'ve got to make it yourself."',
         person:"Alice Walker"
+    },
+    {
+        qoute:'"Success is not final, failure is not fatal: It is the courage to continue that counts."',
+        person:"Winston Churchill"
+    },
+    {
+        qoute:'"The only way to do great work is to love what you do."',
+        person:"Steve Jobs"
+    },
+    {
+        qoute:'"Believe you can and you\'re halfway there."',
+        person:"Theodore Roosevelt"
+    },
+    {
+        qoute:'"In the middle of difficulty lies opportunity."',
+        person:" Albert Einstein"
+    },
+    {
+        qoute:'"Your time is limited, don\'t waste it living someone else\'s life."',
+        person:"Steve Jobs"
     }
 ];
 
-Button.addEventListener('click', e =>{
+Button.addEventListener('click', () => {
     let randomNumber = Math.floor(Math.random() * qoutes.length);
 
     Qoute.textContent = qoutes[randomNumber].qoute;
